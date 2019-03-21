@@ -14,9 +14,12 @@ public class Main {
 ////        price = hamburger.itemizeHamburger();
 //        System.out.println("Total burger price is " + hamburger.itemizeHamburger());
 
-        HealthyBurger healthyBurger = new HealthyBurger("Bacon", 5.89);
-        healthyBurger.addHamburgerAdditionOne("Egg", 4.32);
-        healthyBurger.addHealthyAdditionOne("Lentils", 2.59);
-        System.out.println("Total Healthy Burger price is: " + healthyBurger.itemizeHamburger());
+//        HealthyBurger healthyBurger = new HealthyBurger("Bacon", 5.89);
+//        healthyBurger.addHamburgerAdditionOne("Egg", 4.32);
+//        healthyBurger.addHealthyAdditionOne("Lentils", 2.59);
+//        System.out.println("Total Healthy Burger price is: " + healthyBurger.itemizeHamburger());
+
+        DeluxeBurger deluxeBurger = new DeluxeBurger();
+        deluxeBurger.itemizeHamburger();
     }
 }
